@@ -27,7 +27,7 @@ jobs:
           context: ./src
           file: ./scr/Dockerfile
           push: true
-          tags:
+          tags: |
             elainecro/rotten-potatoes:latest
             elainecro/rotten-potatoes:${{ github.run_number }}
           
