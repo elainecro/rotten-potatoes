@@ -29,5 +29,5 @@ jobs:
           push: true
           tags:
             elainecro/rotten-potatoes:latest
-            elainecro/rotten-potatoes:v${{ github.run_number }}
+            elainecro/rotten-potatoes:${{ github.run_number }}
           
